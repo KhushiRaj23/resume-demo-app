@@ -1,0 +1,36 @@
+
+
+.techstack_icon{
+    flex:33%;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.techstack_icon >img {
+    width: 90px;
+    margin-bottom: 15px;
+    
+}
+.techstack_icon > p{
+    font-size: 20px;
+    font-weight: 800;
+}
+.techstack_icon > p:hover{
+    color: #e63946;
+}
+.techstack_icon >img:hover{
+    cursor: pointer;
+    animation: spinner 1s ease infinite;
+}
+
+@keyframes spinner {
+    0%{
+        transform: scale(1.0,1.0);
+    }
+    100%{
+        transform: scale(1.3,1.3);
+    }
+    
+}

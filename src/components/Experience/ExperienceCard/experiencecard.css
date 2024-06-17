@@ -1,0 +1,41 @@
+
+.experience_card_container{
+    width: 40%;
+    padding: 8px 14px;
+    /* background-color: #181818; */
+    box-shadow:-8px 8px 8px 0px #1d3557 ;
+    margin: 50px 15px;
+
+}
+.ex_card_title{
+    text-align: center;
+    font-size: 25px;
+    
+    font-weight: 600;
+}
+.ex_card_subtitle{
+    font-size: 15px;
+    font-weight: 800;
+    color: #1d3557;
+    
+}
+.ex_card_sentance{
+    font-size: 14px;
+    padding: 10px;
+}
+.ex_card_used_title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ex_card_icon_images_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ex_card_icon_images_container > img{
+    height: 50px;
+    margin:0 9px;
+    padding-bottom:20px ;
+}

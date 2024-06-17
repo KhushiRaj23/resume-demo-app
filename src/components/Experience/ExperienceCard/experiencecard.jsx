@@ -1,0 +1,36 @@
+import './experiencecard.css';
+
+export default function ExperienceCard(
+    {
+        companyName,
+        designation,
+        statements,
+        iconImages
+}
+){
+    return (
+        <div className='experience_card_container'>
+            <p className='ex_card_title'>
+                {companyName}
+            </p>
+            <p className='ex_card_subtitle'>
+                Designation : {designation}
+            </p>
+            {
+                statements.map((item,index)=>(
+                    <p key={item} className='ex_card_sentance'>
+                        {item}
+                    </p>
+                ))
+            }
+            <p className='ex_card_used_title'>Tech Stack Used</p>
+            <div className='ex_card_icon_images_container'>
+                {
+                    iconImages.map((icon,index)=>(
+                        <img key={icon} src={icon} alt={icon}/>
+                    ))
+                }
+            </div>
+        </div>
+    )
+}
