@@ -6,9 +6,10 @@
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    top: 2px;
-    border-radius: 15px;
-    height: 45px;
+    top: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
+    margin-bottom: 1rem;
 }
 html {
     scroll-behavior: smooth;
@@ -21,23 +22,24 @@ html {
 .navbar_left{
     background: transparent;
     left: 0;
-    font-size: 30px;
+    font-size: 1rem;
     font-weight: 100;
     color: #e63946;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 .navbar_right{
     background: transparent;
     display: flex;
-    margin-right: 10px;
+    margin-right: 1rem;
+    flex-wrap: wrap;
 
 }
 .navbar_right > p{
     background: transparent;
     color: whitesmoke;
-    margin-right: 10px;
-    padding: 8px 10px;
-    font-size: 18px;
+    margin-right: 1rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 1rem;
 }
 
 .navbar_right > p:hover{
