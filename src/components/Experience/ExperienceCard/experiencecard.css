@@ -7,6 +7,9 @@
     margin: 50px 15px;
 
 }
+.experience_card_container:hover{
+    box-shadow:-8px 8px 8px 0px #e63946 ;
+}
 .ex_card_title{
     text-align: center;
     font-size: 25px;
